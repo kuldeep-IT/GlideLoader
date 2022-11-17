@@ -1,5 +1,5 @@
 # GlideLoader
-
+```
 package com.stocksgomad.utils
 
 import android.content.Context
@@ -252,3 +252,4 @@ class GlideLoader(private val context: Context) {
     }*/
 
 }
+```
