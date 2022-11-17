@@ -41,6 +41,7 @@ class GlideLoader(private val context: Context) {
         .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
 
 
+// imgTimeStamp - Current timestamp - System.currentTimeMillis() 
     private val withoutCacheProfile = RequestOptions()
         .fitCenter()
         .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
